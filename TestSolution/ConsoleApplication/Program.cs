@@ -13,8 +13,8 @@ namespace ConsoleApplication
     {
         static void Main(string[] args)
         {
-            ImplementationClass class1 = new ImplementationClass();
             ImplementationClass2 class2 = new ImplementationClass2();
+            ImplementationClass class1 = new ImplementationClass();            
 
             ISampleInterface obj;
             obj = class1 as ISampleInterface;
